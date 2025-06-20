@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Iceland", serif;
+    line-height: 1.2;
+}
+
+/* ------------------------------ CSS HEADER ------------------------------------------- */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-nav {
+    background-color: #F3F3F3;
+    padding: 0 10px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu-items {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.menu-accueil:hover {
+    color: #F88600;
+}
+
+.menu-parcours:hover {
+    color: #62BC1B;
+}
+
+.menu-experiences:hover {
+    color: #103DAF;
+}
+
+/* ------------------------------ CSS FOOTER ------------------------------------------- */
+
+.footer-nav {
+    background-color: #7C7C7C;
+    height: 60px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    font-size: 36px;
+    color: #F3F3F3;
+}
+
+.separator {
+    color: #F3F3F3;
+    margin: 0 10px;
+    height: 70%;
+}
+
+/* ------------------------------ CSS INDEX ------------------------------------------- */
+
+.main {
+    margin: 60px;
+    height: 1000px;
+}
