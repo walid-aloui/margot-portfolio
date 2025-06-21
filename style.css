@@ -2,10 +2,23 @@
     box-sizing: border-box;
 }
 
+html,
 body {
+    height: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
     font-family: "Iceland", serif;
     line-height: 1.2;
+    font-size: 24px;
+    background-image: url('images/background-accueil-gauche.png'), url('images/background-accueil-droite.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right top;
+    background-size: 50% 100%, 50% 100%;
+    background-attachment: fixed;
 }
 
 /* ------------------------------ CSS HEADER ------------------------------------------- */
@@ -81,5 +94,41 @@ body {
 
 .main {
     margin: 60px;
-    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-introduction {
+    text-align: justify;
+    word-wrap: break-word;
+    margin: 50px 0;
+}
+
+.button-container {
+    width: 100%;
+    text-align: center;
+}
+
+.button-discover {
+    font-family: "Iceland", serif;
+    color: black;
+    background-color: #62BC1B;
+    border: 0;
+    border-radius: 40px;
+    width: 70%;
+    max-width: 300px;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.button-discover:hover {
+    background-color: #F3F3F3;
+    color: #62BC1B;
 }
