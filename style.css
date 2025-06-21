@@ -14,6 +14,11 @@ body {
     font-family: "Iceland", serif;
     line-height: 1.2;
     font-size: 24px;
+    background-image: url('images/background-accueil.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
 }
 
 /* ------------------------------ CSS HEADER ------------------------------------------- */
@@ -113,19 +118,38 @@ body {
 
 .button-discover {
     font-family: "Iceland", serif;
-    color: black;
-    background-color: #62BC1B;
+    background-color: #bc1b7e;
+    color: white;
     border: 0;
     border-radius: 40px;
-    width: 70%;
+    width: 100%;
     max-width: 300px;
     line-height: 1.8;
     font-size: 20px;
+    margin: 20px;
 }
 
 .button-discover:hover {
-    background-color: #F3F3F3;
-    color: #62BC1B;
+    background-color: white;
+    color: #bc1b7e;
+}
+
+.button-contact {
+    font-family: "Iceland", serif;
+    background-color: #bc1b7e;
+    color: white;
+    border: 0;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 300px;
+    line-height: 1.8;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.button-contact:hover {
+    background-color: white;
+    color: #bc1b7e;
 }
 
 /* ------------------------------ CSS PARCOURS ------------------------------------------- */
@@ -143,7 +167,7 @@ table {
 
 th,
 td {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 12px;
     text-align: left;
     vertical-align: top;
