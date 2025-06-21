@@ -14,11 +14,6 @@ body {
     font-family: "Iceland", serif;
     line-height: 1.2;
     font-size: 24px;
-    background-image: url('images/background-accueil-gauche.png'), url('images/background-accueil-droite.png');
-    background-repeat: no-repeat, no-repeat;
-    background-position: left top, right top;
-    background-size: 50% 100%, 50% 100%;
-    background-attachment: fixed;
 }
 
 /* ------------------------------ CSS HEADER ------------------------------------------- */
@@ -131,4 +126,36 @@ body {
 .button-discover:hover {
     background-color: #F3F3F3;
     color: #62BC1B;
+}
+
+/* ------------------------------ CSS PARCOURS ------------------------------------------- */
+
+.table-parcours {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.download-icon {
+    text-align: center;
+    border: 0;
+}
+
+.download-icon a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
 }
