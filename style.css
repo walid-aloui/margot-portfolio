@@ -134,6 +134,14 @@ body {
 
 /* ------------------------------ CSS PARCOURS ------------------------------------------- */
 
+.text-important {
+    font-weight: bold;
+}
+
+.parcours-description {
+    margin-left: 40px;
+}
+
 .table-parcours {
     margin-top: 50px;
     display: flex;
