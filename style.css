@@ -50,16 +50,8 @@ body {
     text-decoration: none;
 }
 
-.menu-accueil:hover {
-    color: #F88600;
-}
-
-.menu-parcours:hover {
-    color: #62BC1B;
-}
-
-.menu-experiences:hover {
-    color: #103DAF;
+.menu-items:hover {
+    color: rgb(255, 0, 234);
 }
 
 /* ------------------------------ CSS FOOTER ------------------------------------------- */
@@ -73,21 +65,9 @@ body {
     align-items: center;
 }
 
-.icon-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
 .footer-icon {
     font-size: 36px;
     color: #F3F3F3;
-}
-
-.separator {
-    color: #F3F3F3;
-    margin: 0 10px;
-    height: 70%;
 }
 
 /* ------------------------------ CSS INDEX ------------------------------------------- */
@@ -165,6 +145,10 @@ table {
     border-collapse: collapse;
 }
 
+th {
+    background-color: #d3d3d3;
+}
+
 th,
 td {
     border: 1px solid black;
@@ -182,4 +166,14 @@ td {
     text-decoration: none;
     display: inline-block;
     padding: 5px;
+}
+
+/* ------------------------------ CSS CMPETENCES ------------------------------------------- */
+
+.big-title {
+    text-align: center;
+}
+
+.competences {
+    margin: 50px 0;
 }
