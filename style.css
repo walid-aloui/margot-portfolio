@@ -96,7 +96,7 @@ body {
     text-align: center;
 }
 
-.button-discover {
+.button-design {
     font-family: "Iceland", serif;
     background-color: #bc1b7e;
     color: white;
@@ -109,25 +109,7 @@ body {
     margin: 20px;
 }
 
-.button-discover:hover {
-    background-color: white;
-    color: #bc1b7e;
-}
-
-.button-contact {
-    font-family: "Iceland", serif;
-    background-color: #bc1b7e;
-    color: white;
-    border: 0;
-    border-radius: 40px;
-    width: 100%;
-    max-width: 300px;
-    line-height: 1.8;
-    font-size: 20px;
-    margin: 20px;
-}
-
-.button-contact:hover {
+.button-design:hover {
     background-color: white;
     color: #bc1b7e;
 }
@@ -177,12 +159,52 @@ td {
     padding: 5px;
 }
 
-/* ------------------------------ CSS CMPETENCES ------------------------------------------- */
+/* ------------------------------ CSS COMPETENCES ------------------------------------------- */
 
-.title-center {
+.text-center {
     text-align: center;
 }
 
 .competences {
     margin: 50px 0;
+}
+
+/* ------------------------------ CSS EXPERIENCES ------------------------------------------- */
+
+.experiences-section {
+    margin-bottom: 100px;
+}
+
+.experience-subsection {
+    margin: 50px 0 100px;
+}
+
+.experience-subsection-half {
+    width: 50%;
+}
+
+.experiences-images {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-underline {
+    text-decoration: underline;
+}
+
+.subsection-evolution-fraikin,
+.subsection-salle-info-philippines,
+.subsection-photo-groupe-philippines,
+.subsection-plan-communication-clariane,
+.subsection-plan-communication-clariane,
+.subsection-soutenance-finale-clariane {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.subsection-photo-groupe-philippines {
+    align-items: center;
 }
